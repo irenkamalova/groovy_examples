@@ -29,6 +29,8 @@ class Complex {
         def c1 = new Complex(1, 2);
         def c2 = new Complex(3, 4);
         def c3 = new Complex(4, 6);
+        // To sum numbers we defined method plus
+        // But for == operator we also needed to override method equals!
         assert c1 + c2 == c3
     }
 
